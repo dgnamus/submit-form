@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap" rel="stylesheet">
+    <title>Submit form</title>
+</head>
+
+<body>
+    <div class="title">
+        <div>
+            <h1>freeCodeCamp Survey Form</h1>
+        </div>
+        <div>
+            <h4>Thank you for taking the time to help us improve the platform</h4>
+        </div>
+    </div>
+
+    <div class="form-div">
+        <form action="">
+            <div>
+                <h3>Name</h3>
+                <input placeholder="Name" type="text">
+            </div>
+            <div>
+                <h3>Email</h3>
+                <input type="email">
+            </div>
+            <div>
+                <h3>Age (optional)</h3>
+                <input type="number">
+            </div>
+            <div>
+                <h3>Which option best describes your current role?</h3>
+                <select name="choiceRole" id="">
+                    <option value="default" disabled selected>--Please select an option--</option>
+                    <option value="student">Student</option>
+                    <option value="fulltimejob">Full time job</option>
+                    <option value="fulltimelearner">Full time learner</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <h3>Would you reccommend us to a friend?</h3>
+                <label>
+                    <input type="radio" name="choice"/>
+                    Yes
+                </label><br>
+                <label>
+                    <input type="radio" name="choice"/>
+                    No
+                </label><br>
+                <label>
+                    <input type="radio" name="choice"/>
+                    Not sure yet
+                </label>
+            </div>
+            <div>
+                <h3>Which is your favourite option of freeCodeCamp?</h3>
+                <select name="choiceFav" id="">
+                    <option value="default" disabled selected>--Please select an option--</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="opensource">Open source</option>
+                </select>
+            </div>
+            <div>
+                <h3>What would you like to see improved?</h3>
+                <label for=""><input type="checkbox">Front-end projects</label><br>
+                <label for=""><input type="checkbox">Back-end projects</label><br>
+                <label for=""><input type="checkbox">Data visualisation</label><br>
+                <label for=""><input type="checkbox">Projects</label><br>           
+                <label for=""><input type="checkbox">Community</label><br>     
+            </div>
+            <div class="grid">
+                <h3>Any comments or suggestions?</h3>
+                <textarea name="" id=""></textarea>
+            </div>
+            <div class="grid">
+                <button class="button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

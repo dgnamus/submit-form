@@ -1,0 +1,93 @@
+html {    
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {     
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgba(0,0,255,0.4), rgba(0,0,200,0.4)), url("https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    background-attachment: fixed;  
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 4rem;
+    width: 80%;    
+}
+
+h3  {
+    font-weight: 400;
+}
+
+h4 {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.form-div {    
+    background-color: rgba(23, 43, 77, 0.8);
+    width: 60%;
+    margin: auto;
+    color: white;    
+}
+
+form {
+    display: grid;    
+    grid-template-columns: 90%;
+    justify-content: center;
+    grid-row-gap: 1rem;    
+    padding: 2rem;    
+    margin: auto;
+}
+
+input, select, button {
+    width: 100%;
+    border-radius: 3px;
+    height: 2rem;
+    font-size: large;   
+    justify-content: center; 
+}
+
+textarea {
+    height: 5rem;
+    width: 99%;    
+    justify-self: center;
+}
+
+input[type="radio"] {    
+    display: inline;
+    width: 0em;    
+}
+
+input[type="checkbox"] {    
+    display: inline;
+    width: 0em;    
+}
+
+.grid {
+    display: grid;
+}
+
+.button {
+    justify-content: center;
+    background-color: #5ce04b;
+    color: white;
+    margin: 0;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
